@@ -111,7 +111,7 @@ const stylistic = {
   // Use whitespace after colons in object keys
   'key-spacing': 2,
 
-  // Warn when `continue` is used
+  // Disallow `continue`
   'no-continue': 2,
 
   // Disallow `if` as the only statement in an `else` block
@@ -201,7 +201,7 @@ const es6 = {
   // Use `const` whenever a variable is not modified
   'prefer-const': 2,
 
-  // Warn when `apply` is used where the spread operator could be
+  // Don't use `apply` where the spread operator could be used instead
   'prefer-spread': 2,
 
   // Do not use `var`
